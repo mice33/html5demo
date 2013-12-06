@@ -3,4 +3,4 @@
 
 模仿地址:[http://www.mix-town.com/](http://www.mix-town.com/)
 
-Demo查看地址:[http://htmlpreview.github.io/?https://github.com/mice33/html5/blob/master/code1/dist/index.html](http://htmlpreview.github.io/?https://github.com/mice33/html5/blob/master/code1/dist/index.html)
+Demo查看地址:[https://rawgithub.com/mice33/html5demo/master/demo1/dist/index.html](https://rawgithub.com/mice33/html5demo/master/demo1/dist/index.html)
