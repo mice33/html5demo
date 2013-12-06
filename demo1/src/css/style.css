@@ -1,0 +1,495 @@
+html{
+    color:#555;background:#fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;padding:0;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+audio,canvas,video {
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+body,button,input,select,textarea{
+    font:12px/1.5 tahoma,arial,\5b8b\4f53;
+}
+input,select,textarea{
+    font-size:100%;
+}
+table{
+    border-collapse:collapse;border-spacing:0;
+}
+
+th{
+    text-align:inherit;
+}
+fieldset,img{
+    border:0;
+}
+iframe{
+    display:block;
+}
+abbr,acronym{
+    border:0;font-variant:normal;
+}
+del {
+    text-decoration:line-through;
+}
+address,caption,cite,code,dfn,em,th,var {
+    font-style:normal;
+    font-weight:500;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+q:before,q:after {
+    content:'';
+}
+sub, sup {
+    font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
+}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+a:hover {
+    text-decoration:underline;
+}
+ins,a {
+    text-decoration:none;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both
+}
+.clearfix {
+    zoom: 1
+}
+.hide {display:none;}
+
+body {min-width:1000px;min-height:620px;overflow-y:hidden;position:relative;z-index:2;height:100%;}
+#loading {width:100%;height:100%;position:absolute;z-index:9999;background:rgba(0,0,0,0.55);}
+#loading img {width:100px;width:100px;position:absolute;z-index:10;left:50%;top:50%;margin:-50px 0 0 -50px;}
+
+.con {width:246px;position:absolute;z-index:20;right:3%;bottom:48%;}
+.con span {display:block;position:absolute;z-index:21;}
+.con .a {background:url(img/cube1.png) no-repeat;width:119px;height:103px;left:0;top:208px;}
+.con .b {background:url(img/cube2.png) no-repeat;width:87px;height:79px;left:75px;top:130px;}
+.con .c {background:url(img/cube3.png) no-repeat;width:48px;height:48px;left:180px;top:155px;}
+.con .d {background:url(img/cube4.png) no-repeat;width:62px;height:59px;left:136px;top:55px;}
+.con .e {background:url(img/cube5.png) no-repeat;width:36px;height:37px;left:210px;top:78px;}
+.con .f {background:url(img/cube6.png) no-repeat;width:36px;height:33px;left:136px;top:0;}
+.con .g {background:url(img/cube7.png) no-repeat;width:40px;height:37px;left:192px;top:4px;}
+
+.pic-a {}
+.pic-a img {display:block;}
+.pic-a .light {}
+.pic-a .lightico {}
+.pic-a .lightico img {position:absolute;z-index:11;}
+.pic-a .lightico .light-a {width:33px;
+    height:1342px;
+    left:500px;
+    top:90px;
+    -webkit-animation:light-a 7s ease-in-out infinite both;
+    -moz-animation:light-a 7s ease-in-out infinite both;
+    -ms-animation:light-a 7s ease-in-out infinite both;
+    -o-animation:light-a 7s ease-in-out infinite both;
+    animation:light-a 7s ease-in-out infinite both;
+    -webkit-transform:rotate(25deg);
+    -moz-transform:rotate(25deg);
+    -o-transform:rotate(25deg);
+    -ms-transform:rotate(25deg);
+    transform:rotate(25deg);
+    animation-delay:2s;}
+@-webkit-keyframes light-a {
+    50% {-webkit-transform:rotate(-25deg);}
+    100% {-webkit-transform:rotate(25deg);}
+}
+@keyframes light-a {
+    50% {transform:rotate(-25deg);}
+    100% {transform:rotate(25deg);}
+}
+.pic-a .lightico .light-b {width:33px;
+    height:1342px;
+    left:640px;
+    top:85px;
+    -webkit-animation:light-b 9s ease-in-out infinite both;
+    -moz-animation:light-b 9s ease-in-out infinite both;
+    -ms-animation:light-b 9s ease-in-out infinite both;
+    -o-animation:light-b 9s ease-in-out infinite both;
+    animation:light-b 9s ease-in-out infinite both;
+    -webkit-transform:rotate(-25deg);
+    -moz-transform:rotate(-25deg);
+    -o-transform:rotate(-25deg);
+    -ms-transform:rotate(-25deg);
+    transform:rotate(-25deg);}
+@-webkit-keyframes light-b {
+    50% {-webkit-transform:rotate(25deg);}
+    100% {-webkit-transform:rotate(-25deg);}
+}
+@keyframes light-b {
+    50% {transform:rotate(25deg);}
+    100% {transform:rotate(-25deg);}
+}
+.pic-a .lightico .light-c {width:33px;
+    height:1342px;
+    left:1010px;
+    top:85px;
+    -webkit-animation:light-c 5s ease-in-out infinite both;
+    -moz-animation:light-c 5s ease-in-out infinite both;
+    -ms-animation:light-c 5s ease-in-out infinite both;
+    -o-animation:light-c 5s ease-in-out infinite both;
+    animation:light-c 5s ease-in-out infinite both;
+    -webkit-transform:rotate(25deg);
+    -moz-transform:rotate(25deg);
+    -o-transform:rotate(25deg);
+    -ms-transform:rotate(25deg);
+    transform:rotate(25deg);}
+@-webkit-keyframes light-c {
+    50% {-webkit-transform:rotate(-25deg);}
+    100% {-webkit-transform:rotate(25deg);}
+}
+@keyframes light-c {
+    50% {transform:rotate(-25deg);}
+    100% {transform:rotate(25deg);}
+}
+.pic-a .lightico .light-d {width:33px;
+    height:1342px;
+    left:1010px;
+    top:85px;
+    -webkit-animation:light-d 6s ease-in-out infinite both;
+    -moz-animation:light-d 6s ease-in-out infinite both;
+    -ms-animation:light-d 6s ease-in-out infinite both;
+    -o-animation:light-d 6s ease-in-out infinite both;
+    animation:light-d 6s ease-in-out infinite both;
+    -webkit-transform:rotate(-15deg);
+    -moz-transform:rotate(-15deg);
+    -o-transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg);
+    transform:rotate(-15deg);}
+@-webkit-keyframes light-d {
+    50% {-webkit-transform:rotate(15deg);}
+    100% {-webkit-transform:rotate(-15deg);}
+}
+@keyframes light-d {
+    50% {transform:rotate(15deg);}
+    100% {transform:rotate(-15deg);}
+}
+.pic-a .lightico .light-e {width:33px;
+    height:1342px;
+    left:1355px;
+    top:80px;
+    -webkit-animation:light-e 11s ease-in-out infinite both;
+    -moz-animation:light-e 11s ease-in-out infinite both;
+    -ms-animation:light-e 11s ease-in-out infinite both;
+    -o-animation:light-e 11s ease-in-out infinite both;
+    animation:light-e 11s ease-in-out infinite both;
+    -webkit-transform:rotate(-25deg);
+    -moz-transform:rotate(-25deg);
+    -o-transform:rotate(-25deg);
+    -ms-transform:rotate(-25deg);
+    transform:rotate(-25deg);}
+@-webkit-keyframes light-e {
+    50% {-webkit-transform:rotate(25deg);}
+    100% {-webkit-transform:rotate(-25deg);}
+}
+@keyframes light-e {
+    50% {transform:rotate(25deg);}
+    100% {transform:rotate(-25deg);}
+}
+.animated {
+    -webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+       -moz-animation-fill-mode: both;
+         -o-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}    
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity: 0;}    
+    100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity: 0;}    
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}    
+    100% {opacity: 1;}
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    -moz-animation-name: fadeOut;
+    -o-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+@-webkit-keyframes ani-a {
+    0% {top:208px;}
+    50% {top:228px;}
+    100% {top:208px;}
+}
+@-moz-keyframes ani-a {
+    0% {top:208px;}
+    50% {top:228px;}
+    100% {top:208px;}
+}
+@-ms-keyframes ani-a {
+    0% {top:208px;}
+    50% {top:228px;}
+    100% {top:208px;}
+}
+@-o-keyframes ani-a {
+    0% {top:208px;}
+    50% {top:228px;}
+    100% {top:208px;}
+}
+@keyframes ani-a {
+    0% {top:208px;}
+    50% {top:228px;}
+    100% {top:208px;}
+}
+.ani-a {
+    -webkit-animation:ani-a 3s ease-in-out infinite both;
+    -moz-animation:ani-a 3s ease-in-out infinite both;
+    -ms-animation:ani-a 3s ease-in-out infinite both;
+    -o-animation:ani-a 3s ease-in-out infinite both;
+    animation:ani-a 3s ease-in-out infinite both;
+}
+@-webkit-keyframes ani-b {
+    0% {top:130px;}
+    50% {top:120px;}
+    100% {top:130px;}
+}
+@-moz-keyframes ani-b {
+    0% {top:130px;}
+    50% {top:120px;}
+    100% {top:130px;}
+}
+@-ms-keyframes ani-b {
+    0% {top:130px;}
+    50% {top:120px;}
+    100% {top:130px;}
+}
+@-o-keyframes ani-b {
+    0% {top:130px;}
+    50% {top:120px;}
+    100% {top:130px;}
+}
+@keyframes ani-b {
+    0% {top:130px;}
+    50% {top:120px;}
+    100% {top:130px;}
+}
+.ani-b {
+    -webkit-animation:ani-b 3s ease-in-out infinite both;
+    -moz-animation:ani-b 3s ease-in-out infinite both;
+    -ms-animation:ani-b 3s ease-in-out infinite both;
+    -o-animation:ani-b 3s ease-in-out infinite both;
+    animation:ani-b 3s ease-in-out infinite both;
+}
+@-webkit-keyframes ani-c {
+    0% {top:155px;}
+    50% {top:175px;}
+    100% {top:155px;}
+}
+@-moz-keyframes ani-c {
+    0% {top:155px;}
+    50% {top:175px;}
+    100% {top:155px;}
+}
+@-ms-keyframes ani-c {
+    0% {top:155px;}
+    50% {top:175px;}
+    100% {top:155px;}
+}
+@-o-keyframes ani-c {
+    0% {top:155px;}
+    50% {top:175px;}
+    100% {top:155px;}
+}
+@keyframes ani-c {
+    0% {top:155px;}
+    50% {top:175px;}
+    100% {top:155px;}
+}
+.ani-c {
+    -webkit-animation:ani-c 3s ease-in-out infinite both;
+    -moz-animation:ani-c 3s ease-in-out infinite both;
+    -ms-animation:ani-c 3s ease-in-out infinite both;
+    -o-animation:ani-c 3s ease-in-out infinite both;
+    animation:ani-c 3s ease-in-out infinite both;
+}
+@-webkit-keyframes ani-d {
+    0% {top:55px;}
+    50% {top:75px;}
+    100% {top:55px;}
+}
+@-moz-keyframes ani-d {
+    0% {top:55px;}
+    50% {top:75px;}
+    100% {top:55px;}
+}
+@-ms-keyframes ani-d {
+    0% {top:55px;}
+    50% {top:75px;}
+    100% {top:55px;}
+}
+@-o-keyframes ani-d {
+    0% {top:55px;}
+    50% {top:75px;}
+    100% {top:55px;}
+}
+@keyframes ani-d {
+    0% {top:55px;}
+    50% {top:75px;}
+    100% {top:55px;}
+}
+.ani-d {
+    -webkit-animation:ani-d 5s ease-in-out infinite both;
+    -moz-animation:ani-d 5s ease-in-out infinite both;
+    -ms-animation:ani-d 5s ease-in-out infinite both;
+    -o-animation:ani-d 5s ease-in-out infinite both;
+    animation:ani-d 5s ease-in-out infinite both;
+}
+@-webkit-keyframes ani-e {
+    0% {top:78px;}
+    50% {top:68px;}
+    100% {top:78px;}
+}
+@-moz-keyframes ani-e {
+    0% {top:78px;}
+    50% {top:68px;}
+    100% {top:78px;}
+}
+@-ms-keyframes ani-e {
+    0% {top:78px;}
+    50% {top:68px;}
+    100% {top:78px;}
+}
+@-o-keyframes ani-e {
+    0% {top:78px;}
+    50% {top:68px;}
+    100% {top:78px;}
+}
+@keyframes ani-e {
+    0% {top:78px;}
+    50% {top:68px;}
+    100% {top:78px;}
+}
+.ani-e {
+    -webkit-animation:ani-e 6s ease-in-out infinite both;
+    -moz-animation:ani-e 6s ease-in-out infinite both;
+    -ms-animation:ani-e 6s ease-in-out infinite both;
+    -o-animation:ani-e 6s ease-in-out infinite both;
+    animation:ani-e 6s ease-in-out infinite both;
+}
+@-webkit-keyframes ani-f {
+    0% {top:0;}
+    50% {top:35px;}
+    100% {top:0;}
+}
+@-moz-keyframes ani-f {
+    0% {top:0;}
+    50% {top:35px;}
+    100% {top:0;}
+}
+@-ms-keyframes ani-f {
+    0% {top:0;}
+    50% {top:35px;}
+    100% {top:0;}
+}
+@-o-keyframes ani-f {
+    0% {top:0;}
+    50% {top:35px;}
+    100% {top:0;}
+}
+@keyframes ani-f {
+    0% {top:0;}
+    50% {top:35px;}
+    100% {top:0;}
+}
+.ani-f {
+    -webkit-animation:ani-f 3s ease-in-out infinite both;
+    -moz-animation:ani-f 3s ease-in-out infinite both;
+    -ms-animation:ani-f 3s ease-in-out infinite both;
+    -o-animation:ani-f 3s ease-in-out infinite both;
+    animation:ani-f 3s ease-in-out infinite both;
+}
+@-moz-keyframes ani-g {
+    0% {top:4px;}
+    50% {top:34px;}
+    100% {top:4px;}
+}
+@-webkit-keyframes ani-g {
+    0% {top:4px;}
+    50% {top:34px;}
+    100% {top:4px;}
+}
+@-ms-keyframes ani-g {
+    0% {top:4px;}
+    50% {top:34px;}
+    100% {top:4px;}
+}
+@-o-keyframes ani-g {
+    0% {top:4px;}
+    50% {top:34px;}
+    100% {top:4px;}
+}
+@keyframes ani-g {
+    0% {top:4px;}
+    50% {top:34px;}
+    100% {top:4px;}
+}
+.ani-g {
+    -webkit-animation:ani-g 5s ease-in-out infinite both;
+       -moz-animation:ani-g 5s ease-in-out infinite both;
+        -ms-animation:ani-g 5s ease-in-out infinite both;
+         -o-animation:ani-g 5s ease-in-out infinite both;
+            animation:ani-g 5s ease-in-out infinite both;
+}

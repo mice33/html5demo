@@ -1,0 +1,16 @@
+{
+  "name": "html5-pf",
+  "version": "0.1.0",
+  "author": "Mice",
+  "devDependencies": {  
+    "grunt": "~0.4.1", 
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-htmlmin": "latest",  
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-regarde": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-livereload": "latest"
+  }
+}
